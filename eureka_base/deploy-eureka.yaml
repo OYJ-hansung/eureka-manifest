@@ -26,7 +26,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: front
+  name: eureka
 spec:
   type: LoadBalancer
   ports:
@@ -34,4 +34,4 @@ spec:
       targetPort: 3000
       protocol: TCP
   selector:
-    app: front
+    app: eureka
