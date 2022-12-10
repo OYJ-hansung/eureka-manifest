@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: eureka-service
-        image: dhdudwn95/teamcloud:v62-eureka
+        image: dhdudwn95/eureka:22
         ports:
         - containerPort: 3000
         resources:
