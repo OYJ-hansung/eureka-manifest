@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: dhdudwn95/eureka
-  newTag: v23
+  newTag: v24
 - name: dhdudwn95/teamcloud
   newTag: v22-eureka
 resources:
