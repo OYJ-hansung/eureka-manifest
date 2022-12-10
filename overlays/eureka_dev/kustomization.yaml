@@ -3,7 +3,5 @@ kind: Kustomization
 images:
 - name: dhdudwn95/eureka
   newTag: v24
-- name: dhdudwn95/teamcloud
-  newTag: v22-eureka
 resources:
 - ../../eureka_base
