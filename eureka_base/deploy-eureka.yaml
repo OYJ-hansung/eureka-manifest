@@ -18,7 +18,7 @@ spec:
       - name: eureka-service
         image: dhdudwn95/eureka:22
         ports:
-        - containerPort: 8081
+        - containerPort: 8761
         resources:
           requests:
             cpu: 50m
@@ -30,9 +30,9 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - nodePort: 38081
-      port: 8081       # 서비스 포트
-      targetPort: 8081   # 타켓, 즉 pod의 포트
+    - nodePort: 38761
+      port: 8761       # 서비스 포트
+      targetPort: 8761   # 타켓, 즉 pod의 포트
       protocol: TCP
       name: http
   selector:
